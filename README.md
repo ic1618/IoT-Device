@@ -1,7 +1,9 @@
 # TBChip
 TBChip Embedded Systems Project
 
-All the website files are placed in the website/web-pi file. The raspberry code is placed in raspberry_code file.
+All the marketing website files (static elements) are placed in the website-form-first folder.
+
+All the website files are placed in the website/web-pi file. The raspberry code is placed in raspberry_code file. This can be accessed by running the code.
 
 Steps for running the website:
 
