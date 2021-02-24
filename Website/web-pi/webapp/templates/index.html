@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Form First</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/fonts/simple-line-icons.min.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/css/smoothproducts.css')}}">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top  clean-navbar" style="background-color: rgba(210, 210, 210, 0.3);">
+        <div class="container"><a class="navbar-brand logo" href="{{url_for('core.index')}}"><img src="{{url_for('static', filename= 'assets/img/avatars/logo.png')}}" height="40" width="110" alt="logo"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url_for('core.index')}}">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{url_for('core.info')}}">Features</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{url_for('core.login')}}">Login</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav"></ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page landing-page">
+        <section class="clean-hero clean-block" style="background-image:url( {{url_for('static', filename = 'assets/img/scenery/Capture1.png/') }} );color:rgba(30, 30, 30, 0.85);">
+            <div class="text">
+                <h1>Optimise your workout</h1>
+                <p><br>Form First is an IOT device that&nbsp;brings the expertise of personal trainers to your fingertips.&nbsp;Through immediate and accurate feedback,&nbsp;Form&nbsp;first&nbsp;can optimise your workouts and focuses on injury prevention.&nbsp;<br></p>
+                    <a href="{{url_for('core.info')}}" class="btn btn-outline-light btn-lg" role="button">Learn More</a>
+            </div>
+        </section>
+        <section class="clean-block clean-info dark">
+            <div class="container">
+                <div class="block-heading">
+
+
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                      <h2 class="text-success" style="text-align: center;margin: 40px;">Marketing promotion</h2>
+                      <iframe allowfullscreen="" frameborder="0" width="500" height="450" src="https://www.youtube.com/embed/LU8dyoMX1k8?autoplay=1&amp;mute=1"></iframe></div>
+                    <div class="col-md-6">
+                      <h2 class="text-success" style="text-align: center;margin: 40px;">Demonstration video</h2>
+                      <iframe allowfullscreen="" frameborder="0" width="500" height="450" src="https://www.youtube.com/embed/7Ggg3H4ssuA?autoplay=1&amp;mute=1"></iframe></div>
+                </div>
+            </div>
+        </section>
+        <section class="clean-block features">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-success">Features</h2>
+                    <!--<p>Some special features are included in our product:</p>-->
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-5 feature-box"><i class="icon-star icon" style="color:rgb(0, 204, 0)"></i>
+                        <h4>Integratable</h4>
+                        <p>Form first is compatible with multiple joints that are prone to injury, including for example the wrist, shoulders, lower back and knees. The device is also integratable with commonly used gym equipment such as wrist straps, lifting belts, and knee sleeves. </p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-pencil icon" style="color:rgb(0, 204, 0)"></i>
+                        <h4>Lightweight</h4>
+                        <p>Along with being long lasting and durable, the Form First device is extremely lightweight and doesn’t interfere with your workouts.</p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-screen-smartphone icon " style="color:rgb(0, 204, 0)"></i>
+                        <h4>Easy to user interface</h4>
+                        <p>Communication between the device and website/application is fast and reliable. It is capable of providing immediate and accurate feedback. </p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-refresh icon" style="color:rgb(0, 204, 0)"></i>
+                        <h4>Fast and wireless connection</h4>
+                        <p>User friendly and ergonomically designed interface with easy to access data on your workouts. Data is processed, formatted and clearly presented to the customer. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clean-block features dark">
+            <div class="container">
+                <div class="block-heading"></div>
+                <div class="row align-items-center">
+                    <div class="col-md-6"><img class="img-thumbnail" src="{{url_for('static', filename='assets/img/scenery/Capture2.png')}}"></div>
+                    <div class="col-md-6">
+                        <div class="getting-started-info">
+                            <h3 class="text-success" style="text-align:center">Competition</h3>
+                            <p style="text-align:center"><br>Unlike Form First, there are dozens of fitness applications available all offer the same service: personalised workouts and food plans. Gym maniacs, exercise enthusiasts and new goers are bombarded with the same overload
+                                of information. Form First avoids this heavily saturated market area of the fitness industry. It instead targets a gaping whole in the market with very few competitors.&nbsp;<br><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="getting-started-info">
+                            <h3 class="text-success" style="text-align: center;margin: 40px;">Demand Reasoning</h3>
+                            <p style="text-align:center">The demand for a product like this has shot up since&nbsp;the&nbsp;beginning&nbsp;of the pandemic due to the closure of gyms. Vast&nbsp;increasing&nbsp;numbers of the public have been buying up&nbsp;their own gym equipment&nbsp;and
+                                are&nbsp;working out&nbsp;at home.&nbsp;The proof&nbsp;of such&nbsp;dramatic increase of home workouts is clear from the price spike in&nbsp;gym&nbsp;equipment&nbsp;of&nbsp;over 5,800% since March 2020.1&nbsp;Training at
+                                home, however, comes with its downsides. Unfortunately, from&nbsp;a lack of hand on&nbsp;guidance&nbsp;from licensed personal trainers,&nbsp;inexperienced weight lifters&nbsp;will begin to&nbsp;develop&nbsp;many injuries&nbsp;from
+                                incorrect technique&nbsp;during these home workouts.<br><br></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6"><img class="img-thumbnail" src="{{url_for('static', filename='assets/img/scenery/Capture10.png')}}"></div>
+                </div>
+            </div>
+        </section>
+        <section class="clean-block about-us">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-success">Meet the team</h2>
+                    <p>The concept of Form First was carefully created by our team of ingenious and driven engineers. It is designed according to the needs and desires of the users.</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="{{url_for('static', filename='assets/img/avatars/avatar2.png')}}">
+                            <div class="card-body info">
+                                <h4 class="card-title">Catalin Craciun</h4>
+                                <p class="card-text">Head of Web Development</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook" style="color:rgb(0, 204, 0)"></i></a><a href="#"><i class="icon-social-instagram" style="color:rgb(0, 204, 0)"></i></a><a href="#"><i class="icon-social-twitter" style="color:rgb(0, 204, 0)"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="{{url_for('static', filename='assets/img/avatars/avatar1.png')}}">
+                            <div class="card-body info">
+                                <h4 class="card-title">Alex Oprea</h4>
+                                <p class="card-text">Head of Hardware Systems</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook" style="color:rgb(0, 204, 0)"></i></a><a href="#"><i class="icon-social-instagram" style="color:rgb(0, 204, 0)"></i></a><a href="#"><i class="icon-social-twitter" style="color:rgb(0, 204, 0)"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="{{url_for('static', filename='assets/img/avatars/avatar3.png')}}">
+                            <div class="card-body info">
+                                <h4 class="card-title">Gordon Thompson</h4>
+                                <p class="card-text">Head of MQTT and Marketing</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook" style="color:rgb(0, 204, 0)"></i></a><a href="#"><i class="icon-social-instagram" style="color:rgb(0, 204, 0)"></i></a><a href="#"><i class="icon-social-twitter" style="color:rgb(0, 204, 0)"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer dark">
+        <div class="footer-copyright">
+            <p>© Form First 2021</p>
+        </div>
+    </footer>
+    <script src="{{url_for('static', filename='assets/js/jquery.min.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="{{url_for('static', filename='assets/js/smoothproducts.min.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/js/theme.js')}}"></script>
+</body>
+
+</html>

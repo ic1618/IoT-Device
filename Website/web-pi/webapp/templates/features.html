@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Features - Brand</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/fonts/simple-line-icons.min.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/css/smoothproducts.css')}}">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top  clean-navbar" style="background-color: rgba(210, 210, 210, 0.3);">
+        <div class="container"><a class="navbar-brand logo" href="{{url_for('core.index')}}"><img src="{{url_for('static', filename= 'assets/img/avatars/logo.png')}}" height="40" width="110" alt="logo"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="{{url_for('core.index')}}">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{url_for('core.info')}}">Features</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="{{url_for('core.login')}}">Login</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav"></ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page">
+        <section class="clean-block features dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-success">Injury prevention</h2>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6"><img class="img-thumbnail" src="{{url_for('static', filename='assets/img/scenery/Capture8.png')}}"></div>
+                    <div class="col-md-6">
+                        <div class="getting-started-info">
+                            <p><br>The number one reason&nbsp;keeping&nbsp;people out of the gym is&nbsp;an&nbsp;injury. The&nbsp;top three occurring&nbsp;injuries&nbsp;in&nbsp;the gym are&nbsp;the&nbsp;lower back, the shoulders and the knees.&nbsp;All of
+                                which can be contributed to improper form when doing the most likely causing exercises: squats, deadlifts and over-head press.&nbsp;Strategically located flex sensors
+                                will be able to record and relay any points throughout a set where your technique was slacking.&nbsp;Injury prevention would be the most important thing&nbsp;a personal trainer&nbsp;would be focused on.&nbsp;<br><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clean-block features">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-success">Calorie burn rate</h2>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="getting-started-info">
+                            <p style="text-align:right"><br>Several studies&nbsp;also show there is a clear optimal temperature to exercises at both for safety concerns and maximum calorie burn.&nbsp;The essential body temperature for training is around 37.5 degrees Celsius.&nbsp;Muscles and ligaments that aren’t warmed
+                                up properly are a greater risk of tearing&nbsp;and a higher calorie burn is more beneficial to fat loss. Thermopile sensors can record your body temperature throughout a workout and remind you when you have entered that
+                                sweet spot temperature.&nbsp;<br><br></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6"><img class="img-thumbnail" src="{{url_for('static', filename='assets/img/scenery/Capture11.png')}}"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer dark">
+        <div class="footer-copyright">
+            <p>© Form First 2021</p>
+        </div>
+    </footer>
+    <script src="{{url_for('static', filename='assets/js/jquery.min.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="{{url_for('static', filename='assets/js/smoothproducts.min.js')}}"></script>
+    <script src="{{url_for('static', filename='assets/js/theme.js')}}"></script>
+</body>
+
+</html>
